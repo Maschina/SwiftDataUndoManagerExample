@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		665B01B82C9C073100248A8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665B01AE2C9C073100248A8B /* Preview Assets.xcassets */; };
+		665B01B92C9C073100248A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665B01B02C9C073100248A8B /* Assets.xcassets */; };
+		665B01BA2C9C073100248A8B /* ChildItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B01B12C9C073100248A8B /* ChildItem.swift */; };
+		665B01BB2C9C073100248A8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B01B22C9C073100248A8B /* ContentView.swift */; };
+		665B01BD2C9C073100248A8B /* ParentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B01B42C9C073100248A8B /* ParentItem.swift */; };
+		665B01BE2C9C073100248A8B /* SwiftDataUndoManagerExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B01B62C9C073100248A8B /* SwiftDataUndoManagerExampleApp.swift */; };
+		665B01BF2C9C073100248A8B /* DateFormatter+Extensions.swift in Resources */ = {isa = PBXBuildFile; fileRef = 665B01B32C9C073100248A8B /* DateFormatter+Extensions.swift */; };
+		665B01C12C9C08E800248A8B /* ChildrenList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B01C02C9C08E600248A8B /* ChildrenList.swift */; };
+		665B01C32C9D5D3000248A8B /* ParentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B01C22C9D5D3000248A8B /* ParentList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		665B018C2C9C000E00248A8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 665B01702C9C000D00248A8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 665B01772C9C000D00248A8B;
+			remoteInfo = SwiftDataUndoManagerExample;
+		};
+		665B01962C9C000E00248A8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 665B01702C9C000D00248A8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 665B01772C9C000D00248A8B;
+			remoteInfo = SwiftDataUndoManagerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		665B01782C9C000D00248A8B /* SwiftDataUndoManagerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataUndoManagerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		665B018B2C9C000E00248A8B /* SwiftDataUndoManagerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDataUndoManagerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		665B01952C9C000E00248A8B /* SwiftDataUndoManagerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDataUndoManagerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		665B01AE2C9C073100248A8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		665B01B02C9C073100248A8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		665B01B12C9C073100248A8B /* ChildItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildItem.swift; sourceTree = "<group>"; };
+		665B01B22C9C073100248A8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		665B01B32C9C073100248A8B /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		665B01B42C9C073100248A8B /* ParentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentItem.swift; sourceTree = "<group>"; };
+		665B01B52C9C073100248A8B /* SwiftDataUndoManagerExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftDataUndoManagerExample.entitlements; sourceTree = "<group>"; };
+		665B01B62C9C073100248A8B /* SwiftDataUndoManagerExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataUndoManagerExampleApp.swift; sourceTree = "<group>"; };
+		665B01C02C9C08E600248A8B /* ChildrenList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenList.swift; sourceTree = "<group>"; };
+		665B01C22C9D5D3000248A8B /* ParentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		665B018E2C9C000E00248A8B /* SwiftDataUndoManagerExampleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftDataUndoManagerExampleTests;
+			sourceTree = "<group>";
+		};
+		665B01982C9C000E00248A8B /* SwiftDataUndoManagerExampleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftDataUndoManagerExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665B01752C9C000D00248A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665B01882C9C000E00248A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665B01922C9C000E00248A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		665B016F2C9C000D00248A8B = {
+			isa = PBXGroup;
+			children = (
+				665B01B72C9C073100248A8B /* SwiftDataUndoManagerExample */,
+				665B018E2C9C000E00248A8B /* SwiftDataUndoManagerExampleTests */,
+				665B01982C9C000E00248A8B /* SwiftDataUndoManagerExampleUITests */,
+				665B01792C9C000D00248A8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		665B01792C9C000D00248A8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665B01782C9C000D00248A8B /* SwiftDataUndoManagerExample.app */,
+				665B018B2C9C000E00248A8B /* SwiftDataUndoManagerExampleTests.xctest */,
+				665B01952C9C000E00248A8B /* SwiftDataUndoManagerExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		665B01AF2C9C073100248A8B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				665B01AE2C9C073100248A8B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		665B01B72C9C073100248A8B /* SwiftDataUndoManagerExample */ = {
+			isa = PBXGroup;
+			children = (
+				665B01AF2C9C073100248A8B /* Preview Content */,
+				665B01B02C9C073100248A8B /* Assets.xcassets */,
+				665B01B12C9C073100248A8B /* ChildItem.swift */,
+				665B01B22C9C073100248A8B /* ContentView.swift */,
+				665B01C22C9D5D3000248A8B /* ParentList.swift */,
+				665B01C02C9C08E600248A8B /* ChildrenList.swift */,
+				665B01B32C9C073100248A8B /* DateFormatter+Extensions.swift */,
+				665B01B42C9C073100248A8B /* ParentItem.swift */,
+				665B01B52C9C073100248A8B /* SwiftDataUndoManagerExample.entitlements */,
+				665B01B62C9C073100248A8B /* SwiftDataUndoManagerExampleApp.swift */,
+			);
+			path = SwiftDataUndoManagerExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		665B01772C9C000D00248A8B /* SwiftDataUndoManagerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665B019F2C9C000E00248A8B /* Build configuration list for PBXNativeTarget "SwiftDataUndoManagerExample" */;
+			buildPhases = (
+				665B01742C9C000D00248A8B /* Sources */,
+				665B01752C9C000D00248A8B /* Frameworks */,
+				665B01762C9C000D00248A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDataUndoManagerExample;
+			packageProductDependencies = (
+			);
+			productName = SwiftDataUndoManagerExample;
+			productReference = 665B01782C9C000D00248A8B /* SwiftDataUndoManagerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		665B018A2C9C000E00248A8B /* SwiftDataUndoManagerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665B01A22C9C000E00248A8B /* Build configuration list for PBXNativeTarget "SwiftDataUndoManagerExampleTests" */;
+			buildPhases = (
+				665B01872C9C000E00248A8B /* Sources */,
+				665B01882C9C000E00248A8B /* Frameworks */,
+				665B01892C9C000E00248A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				665B018D2C9C000E00248A8B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				665B018E2C9C000E00248A8B /* SwiftDataUndoManagerExampleTests */,
+			);
+			name = SwiftDataUndoManagerExampleTests;
+			packageProductDependencies = (
+			);
+			productName = SwiftDataUndoManagerExampleTests;
+			productReference = 665B018B2C9C000E00248A8B /* SwiftDataUndoManagerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		665B01942C9C000E00248A8B /* SwiftDataUndoManagerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665B01A52C9C000E00248A8B /* Build configuration list for PBXNativeTarget "SwiftDataUndoManagerExampleUITests" */;
+			buildPhases = (
+				665B01912C9C000E00248A8B /* Sources */,
+				665B01922C9C000E00248A8B /* Frameworks */,
+				665B01932C9C000E00248A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				665B01972C9C000E00248A8B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				665B01982C9C000E00248A8B /* SwiftDataUndoManagerExampleUITests */,
+			);
+			name = SwiftDataUndoManagerExampleUITests;
+			packageProductDependencies = (
+			);
+			productName = SwiftDataUndoManagerExampleUITests;
+			productReference = 665B01952C9C000E00248A8B /* SwiftDataUndoManagerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		665B01702C9C000D00248A8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					665B01772C9C000D00248A8B = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					665B018A2C9C000E00248A8B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 665B01772C9C000D00248A8B;
+					};
+					665B01942C9C000E00248A8B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 665B01772C9C000D00248A8B;
+					};
+				};
+			};
+			buildConfigurationList = 665B01732C9C000D00248A8B /* Build configuration list for PBXProject "SwiftDataUndoManagerExample" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 665B016F2C9C000D00248A8B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 665B01792C9C000D00248A8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665B01772C9C000D00248A8B /* SwiftDataUndoManagerExample */,
+				665B018A2C9C000E00248A8B /* SwiftDataUndoManagerExampleTests */,
+				665B01942C9C000E00248A8B /* SwiftDataUndoManagerExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665B01762C9C000D00248A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665B01B82C9C073100248A8B /* Preview Assets.xcassets in Resources */,
+				665B01B92C9C073100248A8B /* Assets.xcassets in Resources */,
+				665B01BF2C9C073100248A8B /* DateFormatter+Extensions.swift in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665B01892C9C000E00248A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665B01932C9C000E00248A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665B01742C9C000D00248A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665B01BA2C9C073100248A8B /* ChildItem.swift in Sources */,
+				665B01C32C9D5D3000248A8B /* ParentList.swift in Sources */,
+				665B01BB2C9C073100248A8B /* ContentView.swift in Sources */,
+				665B01C12C9C08E800248A8B /* ChildrenList.swift in Sources */,
+				665B01BD2C9C073100248A8B /* ParentItem.swift in Sources */,
+				665B01BE2C9C073100248A8B /* SwiftDataUndoManagerExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665B01872C9C000E00248A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665B01912C9C000E00248A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		665B018D2C9C000E00248A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 665B01772C9C000D00248A8B /* SwiftDataUndoManagerExample */;
+			targetProxy = 665B018C2C9C000E00248A8B /* PBXContainerItemProxy */;
+		};
+		665B01972C9C000E00248A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 665B01772C9C000D00248A8B /* SwiftDataUndoManagerExample */;
+			targetProxy = 665B01962C9C000E00248A8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		665B019D2C9C000E00248A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		665B019E2C9C000E00248A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		665B01A02C9C000E00248A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftDataUndoManagerExample/SwiftDataUndoManagerExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataUndoManagerExample/Preview Content\"";
+				DEVELOPMENT_TEAM = PF8C99TXS7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = maschinamaxima.SwiftDataUndoManagerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		665B01A12C9C000E00248A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftDataUndoManagerExample/SwiftDataUndoManagerExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataUndoManagerExample/Preview Content\"";
+				DEVELOPMENT_TEAM = PF8C99TXS7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = maschinamaxima.SwiftDataUndoManagerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		665B01A32C9C000E00248A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PF8C99TXS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = maschinamaxima.SwiftDataUndoManagerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftDataUndoManagerExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftDataUndoManagerExample";
+			};
+			name = Debug;
+		};
+		665B01A42C9C000E00248A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PF8C99TXS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = maschinamaxima.SwiftDataUndoManagerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftDataUndoManagerExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftDataUndoManagerExample";
+			};
+			name = Release;
+		};
+		665B01A62C9C000E00248A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PF8C99TXS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = maschinamaxima.SwiftDataUndoManagerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftDataUndoManagerExample;
+			};
+			name = Debug;
+		};
+		665B01A72C9C000E00248A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PF8C99TXS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = maschinamaxima.SwiftDataUndoManagerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftDataUndoManagerExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665B01732C9C000D00248A8B /* Build configuration list for PBXProject "SwiftDataUndoManagerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665B019D2C9C000E00248A8B /* Debug */,
+				665B019E2C9C000E00248A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665B019F2C9C000E00248A8B /* Build configuration list for PBXNativeTarget "SwiftDataUndoManagerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665B01A02C9C000E00248A8B /* Debug */,
+				665B01A12C9C000E00248A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665B01A22C9C000E00248A8B /* Build configuration list for PBXNativeTarget "SwiftDataUndoManagerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665B01A32C9C000E00248A8B /* Debug */,
+				665B01A42C9C000E00248A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665B01A52C9C000E00248A8B /* Build configuration list for PBXNativeTarget "SwiftDataUndoManagerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665B01A62C9C000E00248A8B /* Debug */,
+				665B01A72C9C000E00248A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 665B01702C9C000D00248A8B /* Project object */;
+}
